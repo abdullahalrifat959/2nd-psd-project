@@ -1,0 +1,653 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+html, body {
+    overflow-x: hidden;
+	font-family: 'Avenir medium';
+	color: #092f42;
+	line-height:
+	font-size:
+}
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+	text-align:right;
+}
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    line-height: 75px;
+    font-size: 17px;
+	font-family: 'Avenir medium';
+}
+.header_area .col-md-4 {
+    padding: 0;
+}
+.header_area .col-md-8 {
+    padding: 0;
+}
+.header_area {
+    padding: 69px 0;
+}
+
+
+/*
+ * A better looking default horizontal rule
+ */
+.header_bottom_text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 135px;
+    line-height: 95px;
+}
+.header_bottom {
+    margin: 40px;
+    overflow: hidden;
+    clear: both;
+}
+
+.banner_area {
+    background: url(../img/section_bgh.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 600px;
+}
+.section_left_text {
+    font-size: 23px;
+    line-height: 38px;
+	color:#092f42;
+	margin-top: 40px;
+	 font-family: 'Avenir medium';
+}
+.section_right {
+    color: #092f42;
+    font-size: 90px;
+	font-family: 'Avenir medium';
+}
+.section_right h1 {
+    font-size: 110px;
+    margin-bottom: 50px;
+    font-family: 'Avenir medium';
+    line-height: 80px;
+}
+.section_right h2{
+    font-size: 90px;
+	font-family: 'Avenir medium';
+	line-height: 83px;
+}
+.row.row_bottom {
+    padding: 50px 0;
+}
+.row.row_top {
+    padding: 50px 0;
+}
+
+
+
+
+/
+
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+
+
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+.article_top h3 {
+    font-size: 53px;
+    line-height: 54px;
+}
+.article {
+    margin: 0;
+    padding: 0;
+    background: #f36d21;
+}
+.article_top {
+    padding: 65px 0;
+	color: #fff;
+}
+button.btn {
+    padding: 30px 60px;
+    border-radius: 64px;
+    background: #092f42;
+    color: #fff;
+    font-size: 30px;
+}
+.article_left {
+    bottom: 0;
+    position: relative;
+    top: 179px;
+}
+.onb {
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 20px;
+	font-family: 'Avenir medium';
+	    display: block;
+}
+.style {
+        display: block;
+}
+ul.footer_ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+ul.footer_ul li {
+    display: inline-block;
+    font-size: 12px;
+    /* display: block; */
+}
+.article {
+    margin: 0;
+    padding: 0;
+    background: #f36d21;
+    padding-bottom: 50px;
+}
+
+.row.one {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.article_right {
+    color: #092f42;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.onb h2 {
+    font-weight: bold;
+	font-family: 'Avenir black';
+}
+.section_right span.small {
+    font-size: 110px;
+    color: #f36d21;
+	font-family: 'Avenir black';
+}
+.section_left_text span.get {
+    font-weight: bold;
+	    color: #f36d21;
+		 font-family: 'Avenir black';
+}
+.header_bottom_text h2 {
+    font-family: 'Avenir roman';
+    font-size: 110px;
+    line-height: 110px;
+}
+.header_bottom_text h1 {
+    font-family: 'Avenir roman';
+	margin-bottom: 37px;
+}
+
+.header_bottom_text h1 b {
+	 font-family: 'Avenir black';
+}
+	 .article_top h3 {
+    font-size: 47px;
+    line-height: 58px;
+    color: white;
+    font-family: 'Avenir black';
+}
+}
+.section_right b {
+    font-family: 'Avenir black';
+	font-size: 81px;
+}
+img.image {
+    max-width: 167px;
+}
+.header_bottom_text {
+    line-height: 15px;
+}
+.button span.iconbg {
+    background: url(../img/span.png) no-repeat left center;
+    display: block;
+    padding-left: 93px;
+    background-size: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 39px;
+    color: #fff;
+    letter-spacing: 3px;
+	font-family: 'Avenir black';
+}
+.button button {
+    display: block;
+    background: #092f42;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 65px;
+}
+.ok {
+    display: flex;
+    align-items: flex-end;
+}
+img.hlogo {
+    max-width: 294px;
+    height: 74px;
+}
+
+@font-face {
+    font-family: 'Avenir medium';
+    src: url('../fonts/AvenirLTStd-Medium.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Avenir roman';
+    src: url('../fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Avenir black';
+    src: url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+        url('../fonts/AvenirLTStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@media (max-width:812px){
+	
+	img.hlogo {
+    max-width: 117px;
+    /* max-width: 158px; */
+    height: 45px;
+	float: left;
+}
+.header_area {
+    padding: 29px 0;
+}
+
+ul li a{
+	font-size:12px;
+	line-height:50px;
+}
+
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: right;
+    width: 70%;
+}
+
+.header_bottom_text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    line-height: 95px;
+}
+.header_bottom_text h2 {
+    font-family: 'Avenir roman';
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.onb {
+    padding-bottom: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Avenir medium';
+    display: block;
+}
+.onb h2 {
+    font-weight: bold;
+    font-family: 'Avenir black';
+    font-size: 21px;
+}
+.style{
+	font-size:12px;
+}
+.row.one .col-md-6 {
+    padding: 0;
+    margin: 0;
+}
+.row.one {
+   
+    margin-left: 0;
+    padding: 0;
+}
+
+.row.ok .col-md-6 {
+    padding: 0;
+	padding-left:37px;
+}
+img.image {
+    max-width: 72px;
+}
+.button span.iconbg {
+    background: url(../img/span.png) no-repeat left center;
+    display: block;
+    padding-left: 28px;
+    background-size: 27px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Avenir black';
+}
+.button button {
+    display: block;
+    background: #092f42;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 65px;
+}
+
+.section_right h1 {
+    font-size: 100px;
+}
+.section_right span.small {
+font-size: 100px;}
+
+.article_top h3 {
+    font-size: 36px;
+    line-height: 47px;
+}
+
+
+.article_top {
+     padding: 7px 0;
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 500px){
+		
+ul li a {
+    font-size: 9px;
+    line-height: 50px;
+    padding-left: 5px;
+}
+	
+	img.hlogo {
+    max-width: 92px;
+
+    height: 37px;
+	}
+	
+	ul {
+    line-height: 0;
+}
+	.col-md-12.foot {
+    display: block;
+}
+	
+.header_bottom_text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height: 40px;
+}
+.header_bottom_text h2 {
+    font-family: 'Avenir roman';
+    font-size: 38px;
+    line-height: 40px;
+}	
+
+.section_right h1 {
+    font-size: 60px;
+}
+.section_right span.small {
+font-size: 60px;}
+
+.article_top h3 {
+    font-size: 22px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+
+.section_right h2 {
+    font-size: 38px;
+    font-family: 'Avenir medium';
+    line-height: 40px;
+}
+.button button {
+    display: block;
+    background: #092f42;
+padding: 0px 16px;
+}
+
+img.image {
+    max-width: 55px;
+}
+.onb h2 {
+    font-size: 13px;
+}
+.onb {
+    padding-bottom: 2px;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: 'Avenir medium';
+    display: block;
+}
+.row.ok .col-md-6 {
+    padding: 0;
+    padding-left: 10px;
+}
+.style {
+    font-size: 11px;
+}
+.header_area {
+    padding: 14px 0;
+}
+
+
+.section_left_text {
+    font-size: 20px;
+    line-height: 31px;
+    color: #092f42;
+    margin-top: -16px;
+    font-family: 'Avenir medium';
+}.row.row_bottom {
+    padding:0;
+}
+.row.row_top {
+    padding:0;
+}
+.section_right h1 {
+   
+    line-height: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
